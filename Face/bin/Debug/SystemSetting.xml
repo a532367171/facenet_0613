@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SystemSetting>
+  <PhotoSetting IsCapturePhotos="否" PhotoType="cut" PhotoSavePath="D:\CapturePhotos" />
+  <!--FrameRate:跳帧间隔数量，例如2表示跳两帧检测一次-->
+  <!--FaceCompareType:算法类型，FaceComparePro旗舰版算法，FaceCompareBase基础版本算法 FaceCompareV4 ,conf人脸范围（0~1）-->
+  <FaceCompreaSet FrameRate="5" FaceCompareType="FaceCompareV2" conf="0.4" />
+  <!--EN_US：英文  CHS_Simplified:简体中文-->
+  <LanguageSet Language="CHS_Simplified" />
+</SystemSetting>

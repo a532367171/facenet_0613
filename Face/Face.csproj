@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{1CE50AE7-4A2D-406C-AA89-19DF480B7CE9}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Face</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>MCFaceRecognitionVideo</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Emgu.CV.World">
+      <HintPath>..\Emgu.CV.World.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.Util, Version=3.0.0.2157, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Emgu.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v15.2">
+      <HintPath>..\DevExpress.Utils.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="MC_DAL">
+      <HintPath>..\MC_DAL\bin\Debug\MC_DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6">
+      <HintPath>..\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6">
+      <HintPath>..\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq">
+      <HintPath>..\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="DevExpress.XtraEditors.v15.2">
+      <HintPath>..\DevExpress.XtraEditors.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v15.2">
+      <HintPath>..\DevExpress.XtraGrid.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="FaceCompareBase">
+      <HintPath>..\FaceCompareBase\bin\Debug\FaceCompareBase.dll</HintPath>
+    </Reference>
+    <Reference Include="FaceCompareThread">
+      <HintPath>..\FaceCompareThread\bin\Debug\FaceCompareThread.dll</HintPath>
+    </Reference>
+    <Reference Include="FaceDetectiveCtl">
+      <HintPath>..\FaceDetectiveCtl\bin\Debug\FaceDetectiveCtl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="DevExpress.XtraGauges.v15.2.Win">
+      <HintPath>..\DevExpress.XtraGauges.v15.2.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v15.2">
+      <HintPath>..\DevExpress.XtraPrinting.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v15.2">
+      <HintPath>..\DevExpress.Data.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.2.UI">
+      <HintPath>..\DevExpress.XtraCharts.v15.2.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v15.2.Core">
+      <HintPath>..\DevExpress.Printing.v15.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Emgu.CV.UI">
+      <HintPath>..\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="DevExpress.XtraGauges.v15.2.Core">
+      <HintPath>..\DevExpress.XtraGauges.v15.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.2">
+      <HintPath>..\DevExpress.XtraCharts.v15.2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MCFaceRecognitionVideo.resources\EN_US.cs" />
+    <Compile Include="MCFaceRecognitionVideo.resources\LanguageSet.cs" />
+    <Compile Include="MCFaceRecognitionVideo.resources\UnitField.cs" />
+    <Compile Include="MCFaceRecognitionVideo.UnitBase\ExportToExcelHelper.cs" />
+    <Compile Include="MCFaceRecognitionVideo.UnitBase\PlaySoundBase.cs" />
+    <Compile Include="MCFaceRecognitionVideo.UnitBase\SaveFaceCompareThred.cs" />
+    <Compile Include="MCFaceRecognitionVideo.UnitBase\SaveFaceDetectThred.cs" />
+    <Compile Include="MCFaceRecognitionVideo.UnitBase\UnitHelper.cs" />
+    <Compile Include="MCFaceRecognitionVideo.UnitBase\XMLHelper.cs" />
+    <Compile Include="MCFaceRecognitionVideo.UserControls\FaceCompareUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo.UserControls\FaceCompareUserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo.UserControls\FaceCompareUserControl3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo.UserControls\FaceDetectUserContorl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo\CamerSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo\CamerSetForm.Designer.cs">
+      <DependentUpon>CamerSetForm.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo\FaceCompareLogger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo\FaceCompareLogger.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FaceCompareLogger.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo\Info.cs" />
+    <Compile Include="MCFaceRecognitionVideo\LoadingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo\LoadingForm.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoadingForm.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo\PersonList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo\PersonList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PersonList.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo\Program.cs" />
+    <Compile Include="MCFaceRecognitionVideo\SystemSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo\SystemSetting.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SystemSetting.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo\VideoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo\VideoForm.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VideoForm.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo\VideoForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo\VideoForm2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VideoForm2.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo\VideoForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCFaceRecognitionVideo\VideoForm3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VideoForm3.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Properties\Settings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MCFaceRecognitionVideo.resources\EN_US.resx">
+      <DependentUpon>EN_US.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCFaceRecognitionVideo.UserControls\FaceCompareUserControl.resx">
+      <DependentUpon>FaceCompareUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCFaceRecognitionVideo.UserControls\FaceCompareUserControl2.resx">
+      <DependentUpon>FaceCompareUserControl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCFaceRecognitionVideo.UserControls\FaceCompareUserControl3.resx">
+      <DependentUpon>FaceCompareUserControl3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCFaceRecognitionVideo.UserControls\FaceDetectUserContorl.resx">
+      <DependentUpon>FaceDetectUserContorl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCFaceRecognitionVideo\CamerSetForm.resx">
+      <DependentUpon>CamerSetForm.cs</DependentUpon>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CamerSetForm.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCFaceRecognitionVideo\FaceCompareLogger.resx">
+      <DependentUpon>FaceCompareLogger.cs</DependentUpon>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>FaceCompareLogger.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCFaceRecognitionVideo\LoadingForm.resx">
+      <DependentUpon>LoadingForm.cs</DependentUpon>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>LoadingForm.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCFaceRecognitionVideo\PersonList.resx">
+      <DependentUpon>PersonList.cs</DependentUpon>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>PersonList.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCFaceRecognitionVideo\SystemSetting.resx">
+      <DependentUpon>SystemSetting.cs</DependentUpon>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SystemSetting.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCFaceRecognitionVideo\VideoForm.resx">
+      <DependentUpon>VideoForm.cs</DependentUpon>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>VideoForm.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCFaceRecognitionVideo\VideoForm2.resx">
+      <DependentUpon>VideoForm2.cs</DependentUpon>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>VideoForm2.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCFaceRecognitionVideo\VideoForm3.resx">
+      <DependentUpon>VideoForm3.cs</DependentUpon>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>VideoForm3.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\top_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weiqiyong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zanwuzhaopian.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\分页_上一页.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\分页_下一页.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\分页_最后页.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\分页_最前页.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_export.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_select.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tsb_camerSet.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tsb_close.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_save.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button2.Image.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

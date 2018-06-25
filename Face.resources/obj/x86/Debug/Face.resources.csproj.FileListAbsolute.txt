@@ -1,0 +1,5 @@
+D:\VS2017\AI\facenet_0613\Face.resources\bin\Debug\Face.resources.dll
+D:\VS2017\AI\facenet_0613\Face.resources\bin\Debug\Face.resources.pdb
+D:\VS2017\AI\facenet_0613\Face.resources\obj\x86\Debug\Face.resources.csproj.CoreCompileInputs.cache
+D:\VS2017\AI\facenet_0613\Face.resources\obj\x86\Debug\Face.resources.dll
+D:\VS2017\AI\facenet_0613\Face.resources\obj\x86\Debug\Face.resources.pdb

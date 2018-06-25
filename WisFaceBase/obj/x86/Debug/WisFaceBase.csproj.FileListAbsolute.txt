@@ -1,0 +1,6 @@
+D:\VS2017\AI\facenet_0613\WisFaceBase\bin\Debug\WisFaceBase.dll
+D:\VS2017\AI\facenet_0613\WisFaceBase\bin\Debug\WisFaceBase.pdb
+D:\VS2017\AI\facenet_0613\WisFaceBase\obj\x86\Debug\WisFaceBase.csprojAssemblyReference.cache
+D:\VS2017\AI\facenet_0613\WisFaceBase\obj\x86\Debug\WisFaceBase.csproj.CoreCompileInputs.cache
+D:\VS2017\AI\facenet_0613\WisFaceBase\obj\x86\Debug\WisFaceBase.dll
+D:\VS2017\AI\facenet_0613\WisFaceBase\obj\x86\Debug\WisFaceBase.pdb

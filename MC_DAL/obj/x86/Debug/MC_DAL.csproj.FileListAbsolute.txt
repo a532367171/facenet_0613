@@ -1,0 +1,8 @@
+D:\VS2017\AI\facenet_0613\MC_DAL\bin\Debug\MC_DAL.dll
+D:\VS2017\AI\facenet_0613\MC_DAL\bin\Debug\MC_DAL.pdb
+D:\VS2017\AI\facenet_0613\MC_DAL\bin\Debug\EntityFramework.dll
+D:\VS2017\AI\facenet_0613\MC_DAL\bin\Debug\EntityFramework.xml
+D:\VS2017\AI\facenet_0613\MC_DAL\obj\x86\Debug\MC_DAL.csproj.CoreCompileInputs.cache
+D:\VS2017\AI\facenet_0613\MC_DAL\obj\x86\Debug\MC_DAL.csproj.CopyComplete
+D:\VS2017\AI\facenet_0613\MC_DAL\obj\x86\Debug\MC_DAL.dll
+D:\VS2017\AI\facenet_0613\MC_DAL\obj\x86\Debug\MC_DAL.pdb

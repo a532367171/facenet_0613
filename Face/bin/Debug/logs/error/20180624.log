@@ -1,0 +1,497 @@
+2018-06-24 15:42:10,925 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.IO.FileNotFoundException: 未能找到文件“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”。
+文件名:“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   在 System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   在 System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   在 System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   在 System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   在 System.Xml.Linq.XDocument.Load(String uri)
+   在 MCFaceRecognitionVideo.UnitBase.XMLHelper.getXmlValue(String xmlElement, String xmlAttribute) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo.UnitBase\XMLHelper.cs:行号 24
+   在 MCFaceRecognitionVideo.VideoForm.PageLoad() 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 236
+2018-06-24 15:44:33,023 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.IO.FileNotFoundException: 未能找到文件“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”。
+文件名:“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   在 System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   在 System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   在 System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   在 System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   在 System.Xml.Linq.XDocument.Load(String uri)
+   在 MCFaceRecognitionVideo.UnitBase.XMLHelper.getXmlValue(String xmlElement, String xmlAttribute) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo.UnitBase\XMLHelper.cs:行号 24
+   在 MCFaceRecognitionVideo.VideoForm.PageLoad() 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 236
+2018-06-24 15:44:46,327 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.UnLoadVideo(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 522
+2018-06-24 15:48:29,796 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.IO.FileNotFoundException: 未能找到文件“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”。
+文件名:“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   在 System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   在 System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   在 System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   在 System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   在 System.Xml.Linq.XDocument.Load(String uri)
+   在 MCFaceRecognitionVideo.UnitBase.XMLHelper.getXmlValue(String xmlElement, String xmlAttribute) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo.UnitBase\XMLHelper.cs:行号 24
+   在 MCFaceRecognitionVideo.VideoForm.PageLoad() 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 236
+2018-06-24 15:51:38,698 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.IO.FileNotFoundException: 未能找到文件“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”。
+文件名:“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   在 System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   在 System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   在 System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   在 System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   在 System.Xml.Linq.XDocument.Load(String uri)
+   在 MCFaceRecognitionVideo.UnitBase.XMLHelper.getXmlValue(String xmlElement, String xmlAttribute) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo.UnitBase\XMLHelper.cs:行号 24
+   在 MCFaceRecognitionVideo.VideoForm.PageLoad() 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 236
+2018-06-24 15:55:11,685 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.IO.FileNotFoundException: 未能找到文件“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”。
+文件名:“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   在 System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   在 System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   在 System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   在 System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   在 System.Xml.Linq.XDocument.Load(String uri)
+   在 MCFaceRecognitionVideo.UnitBase.XMLHelper.getXmlValue(String xmlElement, String xmlAttribute) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo.UnitBase\XMLHelper.cs:行号 24
+   在 MCFaceRecognitionVideo.VideoForm.PageLoad() 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 236
+2018-06-24 16:06:17,349 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.IO.FileNotFoundException: 未能找到文件“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”。
+文件名:“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   在 System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   在 System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   在 System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   在 System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   在 System.Xml.Linq.XDocument.Load(String uri)
+   在 MCFaceRecognitionVideo.UnitBase.XMLHelper.getXmlValue(String xmlElement, String xmlAttribute) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo.UnitBase\XMLHelper.cs:行号 24
+   在 MCFaceRecognitionVideo.VideoForm.PageLoad() 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 236
+2018-06-24 16:07:15,034 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.IO.FileNotFoundException: 未能找到文件“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”。
+文件名:“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   在 System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   在 System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   在 System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   在 System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   在 System.Xml.Linq.XDocument.Load(String uri)
+   在 MCFaceRecognitionVideo.UnitBase.XMLHelper.getXmlValue(String xmlElement, String xmlAttribute) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo.UnitBase\XMLHelper.cs:行号 24
+   在 MCFaceRecognitionVideo.VideoForm.PageLoad() 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 236
+2018-06-24 16:08:38,001 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.IO.FileNotFoundException: 未能找到文件“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”。
+文件名:“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   在 System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   在 System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   在 System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   在 System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   在 System.Xml.Linq.XDocument.Load(String uri)
+   在 MCFaceRecognitionVideo.UnitBase.XMLHelper.getXmlValue(String xmlElement, String xmlAttribute) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo.UnitBase\XMLHelper.cs:行号 24
+   在 MCFaceRecognitionVideo.VideoForm.PageLoad() 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 236
+2018-06-24 16:12:05,124 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.UnLoadVideo(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 522
+2018-06-24 16:16:43,531 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.IO.FileNotFoundException: 未能找到文件“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”。
+文件名:“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   在 System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   在 System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   在 System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   在 System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   在 System.Xml.Linq.XDocument.Load(String uri)
+   在 MCFaceRecognitionVideo.UnitBase.XMLHelper.getXmlValue(String xmlElement, String xmlAttribute) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo.UnitBase\XMLHelper.cs:行号 24
+   在 MCFaceRecognitionVideo.VideoForm.PageLoad() 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 236
+2018-06-24 16:19:51,698 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.IO.FileNotFoundException: 未能找到文件“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”。
+文件名:“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   在 System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   在 System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   在 System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   在 System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   在 System.Xml.Linq.XDocument.Load(String uri)
+   在 MCFaceRecognitionVideo.UnitBase.XMLHelper.getXmlValue(String xmlElement, String xmlAttribute) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo.UnitBase\XMLHelper.cs:行号 24
+   在 MCFaceRecognitionVideo.VideoForm.PageLoad() 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 236
+2018-06-24 16:42:44,750 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.IO.FileNotFoundException: 未能找到文件“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”。
+文件名:“D:\VS2017\AI\facenet_0613\Face\bin\Debug\SystemSetting.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   在 System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   在 System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   在 System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   在 System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   在 System.Xml.Linq.XDocument.Load(String uri)
+   在 MCFaceRecognitionVideo.UnitBase.XMLHelper.getXmlValue(String xmlElement, String xmlAttribute) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo.UnitBase\XMLHelper.cs:行号 24
+   在 MCFaceRecognitionVideo.VideoForm.PageLoad() 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 236
+2018-06-24 16:59:08,283 [1] ERROR FaceCompareBase.FaceCompareV2 [(null)] - System.DllNotFoundException: 无法加载 DLL“SFaceMatcherSDK.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 FaceCompareBase.FaceCompareV2._CreateFaceEngne()
+   在 FaceCompareBase.FaceCompareV2.FaceCompareBase.IFaceCompare.CreateFaceEngne() 位置 D:\VS2017\AI\facenet_0613\FaceCompareBase\FaceCompareBase\FaceCompareV2.cs:行号 58
+2018-06-24 16:59:08,394 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.DllNotFoundException: 无法加载 DLL“WisFaceSDK.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WisFaceBase.WinFaceCore.Wis_Create(String dir)
+   在 WisFaceBase.WinFaceCore.CreateFaceEngine() 位置 D:\VS2017\AI\facenet_0613\WisFaceBase\WisFaceBase\WinFaceCore.cs:行号 19
+   在 FaceCompareThread.FaceDeteiveThread..ctor(FaceCompreaThread faceCompreaThread, FaceCompreaSet faceCompreaSet) 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceDeteiveThread.cs:行号 47
+   在 FaceCompareThread.FaceCompreaCore.Init(FaceCompreaSet faceCompreaSet) 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceCompreaCore.cs:行号 116
+   在 FaceDetectiveCtl.FaceDetectiveControl.Init(List`1 faceTemplates) 位置 D:\VS2017\AI\facenet_0613\FaceDetectiveCtl\FaceDetectiveCtl\FaceDetectiveControl.cs:行号 303
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 320
+2018-06-24 16:59:08,460 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 300
+2018-06-24 16:59:08,475 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 300
+2018-06-24 16:59:08,490 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 300
+2018-06-24 17:00:03,113 [1] ERROR FaceCompareThread.FaceCompreaCore [(null)] - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FaceCompareThread.FaceCompreaCore.Stop() 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceCompreaCore.cs:行号 144
+2018-06-24 17:00:03,146 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.UnLoadVideo(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 522
+2018-06-24 17:30:05,864 [1] ERROR FaceCompareBase.FaceCompareV2 [(null)] - System.DllNotFoundException: 无法加载 DLL“SFaceMatcherSDK.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 FaceCompareBase.FaceCompareV2._CreateFaceEngne()
+   在 FaceCompareBase.FaceCompareV2.FaceCompareBase.IFaceCompare.CreateFaceEngne() 位置 D:\VS2017\AI\facenet_0613\FaceCompareBase\FaceCompareBase\FaceCompareV2.cs:行号 58
+2018-06-24 17:30:05,964 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.DllNotFoundException: 无法加载 DLL“WisFaceSDK.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WisFaceBase.WinFaceCore.Wis_Create(String dir)
+   在 WisFaceBase.WinFaceCore.CreateFaceEngine() 位置 D:\VS2017\AI\facenet_0613\WisFaceBase\WisFaceBase\WinFaceCore.cs:行号 19
+   在 FaceCompareThread.FaceDeteiveThread..ctor(FaceCompreaThread faceCompreaThread, FaceCompreaSet faceCompreaSet) 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceDeteiveThread.cs:行号 47
+   在 FaceCompareThread.FaceCompreaCore.Init(FaceCompreaSet faceCompreaSet) 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceCompreaCore.cs:行号 116
+   在 FaceDetectiveCtl.FaceDetectiveControl.Init(List`1 faceTemplates) 位置 D:\VS2017\AI\facenet_0613\FaceDetectiveCtl\FaceDetectiveCtl\FaceDetectiveControl.cs:行号 303
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 320
+2018-06-24 17:30:06,039 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 300
+2018-06-24 17:30:06,058 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 300
+2018-06-24 17:30:06,074 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 300
+2018-06-24 17:31:07,969 [1] ERROR FaceCompareThread.FaceCompreaCore [(null)] - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FaceCompareThread.FaceCompreaCore.Stop() 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceCompreaCore.cs:行号 144
+2018-06-24 17:31:07,999 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.UnLoadVideo(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 522
+2018-06-24 17:32:08,437 [1] ERROR FaceCompareBase.FaceCompareV2 [(null)] - System.DllNotFoundException: 无法加载 DLL“SFaceMatcherSDK.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 FaceCompareBase.FaceCompareV2._CreateFaceEngne()
+   在 FaceCompareBase.FaceCompareV2.FaceCompareBase.IFaceCompare.CreateFaceEngne() 位置 D:\VS2017\AI\facenet_0613\FaceCompareBase\FaceCompareBase\FaceCompareV2.cs:行号 58
+2018-06-24 17:32:08,549 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.DllNotFoundException: 无法加载 DLL“WisFaceSDK.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WisFaceBase.WinFaceCore.Wis_Create(String dir)
+   在 WisFaceBase.WinFaceCore.CreateFaceEngine() 位置 D:\VS2017\AI\facenet_0613\WisFaceBase\WisFaceBase\WinFaceCore.cs:行号 19
+   在 FaceCompareThread.FaceDeteiveThread..ctor(FaceCompreaThread faceCompreaThread, FaceCompreaSet faceCompreaSet) 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceDeteiveThread.cs:行号 47
+   在 FaceCompareThread.FaceCompreaCore.Init(FaceCompreaSet faceCompreaSet) 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceCompreaCore.cs:行号 116
+   在 FaceDetectiveCtl.FaceDetectiveControl.Init(List`1 faceTemplates) 位置 D:\VS2017\AI\facenet_0613\FaceDetectiveCtl\FaceDetectiveCtl\FaceDetectiveControl.cs:行号 303
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 322
+2018-06-24 17:32:08,610 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 302
+2018-06-24 17:32:08,628 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 302
+2018-06-24 17:32:08,645 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 302
+2018-06-24 17:37:45,911 [1] ERROR FaceCompareThread.FaceCompreaCore [(null)] - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FaceCompareThread.FaceCompreaCore.Stop() 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceCompreaCore.cs:行号 144
+2018-06-24 17:37:45,942 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.UnLoadVideo(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 524
+2018-06-24 17:47:11,217 [1] ERROR FaceCompareBase.FaceCompareV2 [(null)] - System.DllNotFoundException: 无法加载 DLL“SFaceMatcherSDK.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 FaceCompareBase.FaceCompareV2._CreateFaceEngne()
+   在 FaceCompareBase.FaceCompareV2.FaceCompareBase.IFaceCompare.CreateFaceEngne() 位置 D:\VS2017\AI\facenet_0613\FaceCompareBase\FaceCompareBase\FaceCompareV2.cs:行号 58
+2018-06-24 17:47:11,305 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.DllNotFoundException: 无法加载 DLL“WisFaceSDK.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WisFaceBase.WinFaceCore.Wis_Create(String dir)
+   在 WisFaceBase.WinFaceCore.CreateFaceEngine() 位置 D:\VS2017\AI\facenet_0613\WisFaceBase\WisFaceBase\WinFaceCore.cs:行号 19
+   在 FaceCompareThread.FaceDeteiveThread..ctor(FaceCompreaThread faceCompreaThread, FaceCompreaSet faceCompreaSet) 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceDeteiveThread.cs:行号 47
+   在 FaceCompareThread.FaceCompreaCore.Init(FaceCompreaSet faceCompreaSet) 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceCompreaCore.cs:行号 116
+   在 FaceDetectiveCtl.FaceDetectiveControl.Init(List`1 faceTemplates) 位置 D:\VS2017\AI\facenet_0613\FaceDetectiveCtl\FaceDetectiveCtl\FaceDetectiveControl.cs:行号 303
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 322
+2018-06-24 17:47:11,363 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 302
+2018-06-24 17:47:11,388 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 302
+2018-06-24 17:47:11,407 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 302
+2018-06-24 17:47:53,420 [1] ERROR FaceCompareBase.FaceCompareV2 [(null)] - System.DllNotFoundException: 无法加载 DLL“SFaceMatcherSDK.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 FaceCompareBase.FaceCompareV2._CreateFaceEngne()
+   在 FaceCompareBase.FaceCompareV2.FaceCompareBase.IFaceCompare.CreateFaceEngne() 位置 D:\VS2017\AI\facenet_0613\FaceCompareBase\FaceCompareBase\FaceCompareV2.cs:行号 58
+2018-06-24 17:47:53,474 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.DllNotFoundException: 无法加载 DLL“WisFaceSDK.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WisFaceBase.WinFaceCore.Wis_Create(String dir)
+   在 WisFaceBase.WinFaceCore.CreateFaceEngine() 位置 D:\VS2017\AI\facenet_0613\WisFaceBase\WisFaceBase\WinFaceCore.cs:行号 19
+   在 FaceCompareThread.FaceDeteiveThread..ctor(FaceCompreaThread faceCompreaThread, FaceCompreaSet faceCompreaSet) 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceDeteiveThread.cs:行号 47
+   在 FaceCompareThread.FaceCompreaCore.Init(FaceCompreaSet faceCompreaSet) 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceCompreaCore.cs:行号 116
+   在 FaceDetectiveCtl.FaceDetectiveControl.Init(List`1 faceTemplates) 位置 D:\VS2017\AI\facenet_0613\FaceDetectiveCtl\FaceDetectiveCtl\FaceDetectiveControl.cs:行号 303
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 322
+2018-06-24 17:47:53,504 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 302
+2018-06-24 17:47:53,511 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 302
+2018-06-24 17:47:53,516 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 302
+2018-06-24 17:48:11,424 [1] ERROR FaceCompareBase.FaceCompareV2 [(null)] - System.DllNotFoundException: 无法加载 DLL“SFaceMatcherSDK.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 FaceCompareBase.FaceCompareV2._CreateFaceEngne()
+   在 FaceCompareBase.FaceCompareV2.FaceCompareBase.IFaceCompare.CreateFaceEngne() 位置 D:\VS2017\AI\facenet_0613\FaceCompareBase\FaceCompareBase\FaceCompareV2.cs:行号 58
+2018-06-24 17:48:11,481 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.DllNotFoundException: 无法加载 DLL“WisFaceSDK.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WisFaceBase.WinFaceCore.Wis_Create(String dir)
+   在 WisFaceBase.WinFaceCore.CreateFaceEngine() 位置 D:\VS2017\AI\facenet_0613\WisFaceBase\WisFaceBase\WinFaceCore.cs:行号 19
+   在 FaceCompareThread.FaceDeteiveThread..ctor(FaceCompreaThread faceCompreaThread, FaceCompreaSet faceCompreaSet) 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceDeteiveThread.cs:行号 47
+   在 FaceCompareThread.FaceCompreaCore.Init(FaceCompreaSet faceCompreaSet) 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceCompreaCore.cs:行号 116
+   在 FaceDetectiveCtl.FaceDetectiveControl.Init(List`1 faceTemplates) 位置 D:\VS2017\AI\facenet_0613\FaceDetectiveCtl\FaceDetectiveCtl\FaceDetectiveControl.cs:行号 303
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 322
+2018-06-24 17:48:11,511 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 302
+2018-06-24 17:48:11,517 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 302
+2018-06-24 17:48:11,522 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 302
+2018-06-24 17:48:29,999 [1] ERROR FaceCompareThread.FaceCompreaCore [(null)] - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FaceCompareThread.FaceCompreaCore.Stop() 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceCompreaCore.cs:行号 144
+2018-06-24 17:48:30,004 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.UnLoadVideo(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 524
+2018-06-24 17:51:52,662 [1] ERROR FaceCompareBase.FaceCompareV2 [(null)] - System.DllNotFoundException: 无法加载 DLL“SFaceMatcherSDK.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 FaceCompareBase.FaceCompareV2._CreateFaceEngne()
+   在 FaceCompareBase.FaceCompareV2.FaceCompareBase.IFaceCompare.CreateFaceEngne() 位置 D:\VS2017\AI\facenet_0613\FaceCompareBase\FaceCompareBase\FaceCompareV2.cs:行号 58
+2018-06-24 17:51:52,758 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.DllNotFoundException: 无法加载 DLL“WisFaceSDK.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 WisFaceBase.WinFaceCore.Wis_Create(String dir)
+   在 WisFaceBase.WinFaceCore.CreateFaceEngine() 位置 D:\VS2017\AI\facenet_0613\WisFaceBase\WisFaceBase\WinFaceCore.cs:行号 19
+   在 FaceCompareThread.FaceDeteiveThread..ctor(FaceCompreaThread faceCompreaThread, FaceCompreaSet faceCompreaSet) 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceDeteiveThread.cs:行号 47
+   在 FaceCompareThread.FaceCompreaCore.Init(FaceCompreaSet faceCompreaSet) 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceCompreaCore.cs:行号 116
+   在 FaceDetectiveCtl.FaceDetectiveControl.Init(List`1 faceTemplates) 位置 D:\VS2017\AI\facenet_0613\FaceDetectiveCtl\FaceDetectiveCtl\FaceDetectiveControl.cs:行号 303
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 322
+2018-06-24 17:51:52,816 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 302
+2018-06-24 17:51:52,831 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 302
+2018-06-24 17:51:52,846 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.Init(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 302
+2018-06-24 17:52:11,584 [1] ERROR FaceCompareThread.FaceCompreaCore [(null)] - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FaceCompareThread.FaceCompreaCore.Stop() 位置 D:\VS2017\AI\facenet_0613\FaceCompareThread\FaceCompareThread\FaceCompreaCore.cs:行号 144
+2018-06-24 17:52:11,617 [1] ERROR MCFaceRecognitionVideo.VideoForm [(null)] - System.TypeInitializationException: “Emgu.CV.CvInvoke”的类型初始值设定项引发异常。 ---> System.DllNotFoundException: 无法加载 DLL“cvextern”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+   在 Emgu.CV.CvInvoke.RedirectError(CvErrorCallback errorHandler, IntPtr userdata, IntPtr prevUserdata)
+   在 Emgu.CV.CvInvoke..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Emgu.CV.CvInvoke.cvCreateImageHeader(Size size, IplDepth depth, Int32 channels)
+   在 Emgu.CV.Image`2.AllocateData(Int32 rows, Int32 cols, Int32 numberOfChannels)
+   在 Emgu.CV.Image`2.set_Bitmap(Bitmap value)
+   在 Emgu.CV.Image`2..ctor(Bitmap bmp)
+   在 MCFaceRecognitionVideo.VideoForm.UnLoadVideo(FaceDetectiveControl faceDetectiveControl, CamerInfo camerInfo) 位置 D:\VS2017\AI\facenet_0613\Face\MCFaceRecognitionVideo\VideoForm.cs:行号 524

@@ -1,0 +1,14 @@
+D:\VS2017\AI\facenet_0613\FaceCompareThread\obj\x86\Debug\FaceCompareThread.csproj.CoreCompileInputs.cache
+D:\VS2017\AI\facenet_0613\FaceCompareThread\bin\Debug\FaceCompareThread.dll
+D:\VS2017\AI\facenet_0613\FaceCompareThread\bin\Debug\FaceCompareThread.pdb
+D:\VS2017\AI\facenet_0613\FaceCompareThread\bin\Debug\Emgu.CV.World.dll
+D:\VS2017\AI\facenet_0613\FaceCompareThread\bin\Debug\FaceCompareBase.dll
+D:\VS2017\AI\facenet_0613\FaceCompareThread\bin\Debug\log4net.dll
+D:\VS2017\AI\facenet_0613\FaceCompareThread\bin\Debug\WisFaceBase.dll
+D:\VS2017\AI\facenet_0613\FaceCompareThread\bin\Debug\log4net.xml
+D:\VS2017\AI\facenet_0613\FaceCompareThread\bin\Debug\WisFaceBase.pdb
+D:\VS2017\AI\facenet_0613\FaceCompareThread\bin\Debug\FaceCompareBase.pdb
+D:\VS2017\AI\facenet_0613\FaceCompareThread\obj\x86\Debug\FaceCompareThread.csprojAssemblyReference.cache
+D:\VS2017\AI\facenet_0613\FaceCompareThread\obj\x86\Debug\FaceCompareThread.csproj.CopyComplete
+D:\VS2017\AI\facenet_0613\FaceCompareThread\obj\x86\Debug\FaceCompareThread.dll
+D:\VS2017\AI\facenet_0613\FaceCompareThread\obj\x86\Debug\FaceCompareThread.pdb

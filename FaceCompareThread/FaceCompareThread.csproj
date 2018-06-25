@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{A06E939B-E060-4F10-B197-8FCADA4A0810}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>FaceCompareThread</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Emgu.CV.World">
+      <HintPath>..\Face\bin\Debug\Emgu.CV.World.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="WisFaceBase">
+      <HintPath>..\WisFaceBase\bin\Debug\WisFaceBase.dll</HintPath>
+    </Reference>
+    <Reference Include="FaceCompareBase">
+      <HintPath>..\FaceCompareBase\bin\Debug\FaceCompareBase.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FaceCompareThread\CameraInfor.cs" />
+    <Compile Include="FaceCompareThread\CameraType.cs" />
+    <Compile Include="FaceCompareThread\CaptureHelper.cs" />
+    <Compile Include="FaceCompareThread\CompareSuccessHandler.cs" />
+    <Compile Include="FaceCompareThread\DrawLinsHandler.cs" />
+    <Compile Include="FaceCompareThread\FaceCompreaCore.cs" />
+    <Compile Include="FaceCompareThread\FaceCompreaSet.cs" />
+    <Compile Include="FaceCompareThread\FaceCompreaThread.cs" />
+    <Compile Include="FaceCompareThread\FaceDeteiveThread.cs" />
+    <Compile Include="FaceCompareThread\FaceDrawLines.cs" />
+    <Compile Include="FaceCompareThread\FaceTemplate.cs" />
+    <Compile Include="FaceCompareThread\HelpMessageHandler.cs" />
+    <Compile Include="FaceCompareThread\INIClass.cs" />
+    <Compile Include="FaceCompareThread\PersonType.cs" />
+    <Compile Include="FaceCompareThread\ResultInfo.cs" />
+    <Compile Include="FaceCompareThread\ShowFaceDeteiveImageHandler.cs" />
+    <Compile Include="FaceCompareThread\ShowImageHandler.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

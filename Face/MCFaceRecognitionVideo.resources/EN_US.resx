@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Registration" xml:space="preserve">
+    <value>Personnel Registration</value>
+  </metadata>
+  <metadata name="BasicInformation" xml:space="preserve">
+    <value>Basic information</value>
+  </metadata>
+  <metadata name="LoadForm" xml:space="preserve">
+    <value>Initialize the form information</value>
+  </metadata>
+  <metadata name="LoadConfigurationError" xml:space="preserve">
+    <value>Configuration file error</value>
+  </metadata>
+  <metadata name="FaceTempateImage" xml:space="preserve">
+    <value>Register photo</value>
+  </metadata>
+  <metadata name="ExitSystem" xml:space="preserve">
+    <value>Exit</value>
+  </metadata>
+  <metadata name="Export" xml:space="preserve">
+    <value>Export</value>
+  </metadata>
+  <metadata name="Dahuatech" xml:space="preserve">
+    <value>Dahuatech</value>
+  </metadata>
+  <metadata name="IdentificationAll" xml:space="preserve">
+    <value>A total of # identification records.</value>
+  </metadata>
+  <metadata name="AgeBig" xml:space="preserve">
+    <value>Too big for age</value>
+  </metadata>
+  <metadata name="Female" xml:space="preserve">
+    <value>Female</value>
+  </metadata>
+  <metadata name="IsRunSound" xml:space="preserve">
+    <value>Turn on the alarm</value>
+  </metadata>
+  <metadata name="AgeError" xml:space="preserve">
+    <value>Enter the age is not a valid number</value>
+  </metadata>
+  <metadata name="PersonImage" xml:space="preserve">
+    <value>Picture</value>
+  </metadata>
+  <metadata name="Previous" xml:space="preserve">
+    <value>Previous</value>
+  </metadata>
+  <metadata name="ImportMessage" xml:space="preserve">
+    <value>The current directory contains # import files.</value>
+  </metadata>
+  <metadata name="CameraIPFiled" xml:space="preserve">
+    <value>Enter the correct IP address</value>
+  </metadata>
+  <metadata name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </metadata>
+  <metadata name="NoFace" xml:space="preserve">
+    <value>No face was detected</value>
+  </metadata>
+  <metadata name="Hikvision" xml:space="preserve">
+    <value>Hikvision</value>
+  </metadata>
+  <metadata name="Fortified" xml:space="preserve">
+    <value>Protect</value>
+  </metadata>
+  <metadata name="OnShow" xml:space="preserve">
+    <value>Show</value>
+  </metadata>
+  <metadata name="PersonID" xml:space="preserve">
+    <value>ID</value>
+  </metadata>
+  <metadata name="PortFiled" xml:space="preserve">
+    <value>The camera RTSP port number is not a valid number!</value>
+  </metadata>
+  <metadata name="ThresholdBetween" xml:space="preserve">
+    <value>Set range 0~1!</value>
+  </metadata>
+  <metadata name="Resolution" xml:space="preserve">
+    <value>Resolution</value>
+  </metadata>
+  <metadata name="PersonNumber" xml:space="preserve">
+    <value>Number</value>
+  </metadata>
+  <metadata name="SystemInitialization" xml:space="preserve">
+    <value>System initialization</value>
+  </metadata>
+  <metadata name="ThresholdNull" xml:space="preserve">
+    <value>Threshold cannot be null!</value>
+  </metadata>
+  <metadata name="HomePageStyle" xml:space="preserve">
+    <value>Display Styles</value>
+  </metadata>
+  <metadata name="FaceCaptureDisplay" xml:space="preserve">
+    <value>Face Capture Display</value>
+  </metadata>
+  <metadata name="NoSerch" xml:space="preserve">
+    <value>No information was found</value>
+  </metadata>
+  <metadata name="CameraIP" xml:space="preserve">
+    <value>IP Address</value>
+  </metadata>
+  <metadata name="CameraType" xml:space="preserve">
+    <value>CameraType</value>
+  </metadata>
+  <metadata name="Similar" xml:space="preserve">
+    <value>Score</value>
+  </metadata>
+  <metadata name="BetweenEyeFiled" xml:space="preserve">
+    <value>Distance between two eyes is not a valid number!</value>
+  </metadata>
+  <metadata name="Style2" xml:space="preserve">
+    <value>Style 2</value>
+  </metadata>
+  <metadata name="Style1" xml:space="preserve">
+    <value>Style 1</value>
+  </metadata>
+  <metadata name="Search" xml:space="preserve">
+    <value>Search</value>
+  </metadata>
+  <metadata name="Recommended" xml:space="preserve">
+    <value>Recommended 30 px</value>
+  </metadata>
+  <metadata name="FullScreen" xml:space="preserve">
+    <value>Maximize</value>
+  </metadata>
+  <metadata name="PortNull" xml:space="preserve">
+    <value>Please enter the RTSP port number!</value>
+  </metadata>
+  <metadata name="Uniview" xml:space="preserve">
+    <value>Uniview</value>
+  </metadata>
+  <metadata name="OrdinarySearch" xml:space="preserve">
+    <value>General search</value>
+  </metadata>
+  <metadata name="RestartMessage" xml:space="preserve">
+    <value>Restart the application, will it be executed immediately?</value>
+  </metadata>
+  <metadata name="SoftwareName" xml:space="preserve">
+    <value>Software name</value>
+  </metadata>
+  <metadata name="Password" xml:space="preserve">
+    <value>Password</value>
+  </metadata>
+  <metadata name="TopPage" xml:space="preserve">
+    <value>Top Page</value>
+  </metadata>
+  <metadata name="Threshold" xml:space="preserve">
+    <value>Threshold</value>
+  </metadata>
+  <metadata name="SystemSettings" xml:space="preserve">
+    <value>System Settings</value>
+  </metadata>
+  <metadata name="USBSubscriptNull" xml:space="preserve">
+    <value>USB numbering cannot be null!</value>
+  </metadata>
+  <metadata name="FaceDatabase" xml:space="preserve">
+    <value>Face Database Management</value>
+  </metadata>
+  <metadata name="DeleteAll" xml:space="preserve">
+    <value>Continue to delete all registrar information, are you sure you want to continue?</value>
+  </metadata>
+  <metadata name="InitializeFace" xml:space="preserve">
+    <value>Initialize the face library</value>
+  </metadata>
+  <metadata name="Channel" xml:space="preserve">
+    <value>Channel</value>
+  </metadata>
+  <metadata name="ChoosePhotos" xml:space="preserve">
+    <value>Photo Selection</value>
+  </metadata>
+  <metadata name="FaceRecognitionSystem" xml:space="preserve">
+    <value>Face Recognition System</value>
+  </metadata>
+  <metadata name="TakePictures" xml:space="preserve">
+    <value>Take Pictures</value>
+  </metadata>
+  <metadata name="Picture" xml:space="preserve">
+    <value>Picture</value>
+  </metadata>
+  <metadata name="EndPage" xml:space="preserve">
+    <value>End Page</value>
+  </metadata>
+  <metadata name="No" xml:space="preserve">
+    <value>No</value>
+  </metadata>
+  <metadata name="FolderPath" xml:space="preserve">
+    <value>Folder path</value>
+  </metadata>
+  <metadata name="LoadFaceEngine" xml:space="preserve">
+    <value>Initializes the face recognition engine configuration information</value>
+  </metadata>
+  <metadata name="UserNameNull" xml:space="preserve">
+    <value>Please enter the user name of the camera!</value>
+  </metadata>
+  <metadata name="VIP" xml:space="preserve">
+    <value>VIP Customers</value>
+  </metadata>
+  <metadata name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </metadata>
+  <metadata name="ZTE" xml:space="preserve">
+    <value>ZTE</value>
+  </metadata>
+  <metadata name="BulkRegistration" xml:space="preserve">
+    <value>Batch Registration</value>
+  </metadata>
+  <metadata name="Error" xml:space="preserve">
+    <value>Error occurred</value>
+  </metadata>
+  <metadata name="PersonType" xml:space="preserve">
+    <value>Type</value>
+  </metadata>
+  <metadata name="AgeNull" xml:space="preserve">
+    <value>Enter age.</value>
+  </metadata>
+  <metadata name="PersonList" xml:space="preserve">
+    <value>Personnel List</value>
+  </metadata>
+  <metadata name="PersonName" xml:space="preserve">
+    <value>Name</value>
+  </metadata>
+  <metadata name="Black" xml:space="preserve">
+    <value>Black List</value>
+  </metadata>
+  <metadata name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </metadata>
+  <metadata name="Large" xml:space="preserve">
+    <value>When the query results are greater than 500 messages, the default is returned to the first 500 messages.</value>
+  </metadata>
+  <metadata name="Video" xml:space="preserve">
+    <value>Real Time Video Streaming</value>
+  </metadata>
+  <metadata name="USBCamera" xml:space="preserve">
+    <value>USB Camera</value>
+  </metadata>
+  <metadata name="White" xml:space="preserve">
+    <value>White List</value>
+  </metadata>
+  <metadata name="Start" xml:space="preserve">
+    <value>Start</value>
+  </metadata>
+  <metadata name="State" xml:space="preserve">
+    <value>Status</value>
+  </metadata>
+  <metadata name="SystemSave" xml:space="preserve">
+    <value>Save successfully, Please restart the program.</value>
+  </metadata>
+  <metadata name="UserName" xml:space="preserve">
+    <value>User Name</value>
+  </metadata>
+  <metadata name="Photographs" xml:space="preserve">
+    <value>Select Photos</value>
+  </metadata>
+  <metadata name="MonitoringChannel" xml:space="preserve">
+    <value>Monitoring Channel</value>
+  </metadata>
+  <metadata name="PersonSex" xml:space="preserve">
+    <value>Gender</value>
+  </metadata>
+  <metadata name="PersonAge" xml:space="preserve">
+    <value>Age</value>
+  </metadata>
+  <metadata name="PhotoNull" xml:space="preserve">
+    <value>There is no photo of the person you want to register!</value>
+  </metadata>
+  <metadata name="CreateTime" xml:space="preserve">
+    <value>CreateTime</value>
+  </metadata>
+  <metadata name="DonotShow" xml:space="preserve">
+    <value>Don't Show</value>
+  </metadata>
+  <metadata name="NumberError" xml:space="preserve">
+    <value>Enter the personnel number too long, should fill in 15 words.</value>
+  </metadata>
+  <metadata name="RTSPAddressNull" xml:space="preserve">
+    <value>Please enter the RTSP address!</value>
+  </metadata>
+  <metadata name="TwoEyesDistance" xml:space="preserve">
+    <value>Eyes Distance</value>
+  </metadata>
+  <metadata name="BatchSucess" xml:space="preserve">
+    <value>Batch comparison task completed, successfully import # images.</value>
+  </metadata>
+  <metadata name="PassWordNull" xml:space="preserve">
+    <value>Please enter the camera login password!</value>
+  </metadata>
+  <metadata name="RTSPAddress" xml:space="preserve">
+    <value>RTSP Address</value>
+  </metadata>
+  <metadata name="FaceDetcetImage" xml:space="preserve">
+    <value>Face Detcet Image</value>
+  </metadata>
+  <metadata name="PhotoSavePath" xml:space="preserve">
+    <value>Photo save path</value>
+  </metadata>
+  <metadata name="FacialMarker" xml:space="preserve">
+    <value>Facial Marker</value>
+  </metadata>
+  <metadata name="ProtectionSettings" xml:space="preserve">
+    <value>Protection Settings</value>
+  </metadata>
+  <metadata name="USBSubscriptFiled" xml:space="preserve">
+    <value>USB numbering is not a valid number!</value>
+  </metadata>
+  <metadata name="SelectPath" xml:space="preserve">
+    <value>Select the file path</value>
+  </metadata>
+  <metadata name="Restart" xml:space="preserve">
+    <value>Restart</value>
+  </metadata>
+  <metadata name="Removal" xml:space="preserve">
+    <value>Removal</value>
+  </metadata>
+  <metadata name="LogList" xml:space="preserve">
+    <value>Log List</value>
+  </metadata>
+  <metadata name="Loading" xml:space="preserve">
+    <value>Loading program resources, please wait...</value>
+  </metadata>
+  <metadata name="DeleteMessage" xml:space="preserve">
+    <value>Initialization completes, deleting # bar data</value>
+  </metadata>
+  <metadata name="Cancelled" xml:space="preserve">
+    <value>Has been cancelled</value>
+  </metadata>
+  <metadata name="InitializeIdentification" xml:space="preserve">
+    <value>Initialize the identification record</value>
+  </metadata>
+  <metadata name="SelectedCameraType" xml:space="preserve">
+    <value>Please select camera type!</value>
+  </metadata>
+  <metadata name="FaceAll" xml:space="preserve">
+    <value>A total of # face data.</value>
+  </metadata>
+  <metadata name="ThresholdFiled" xml:space="preserve">
+    <value>Threshold is not a valid number!</value>
+  </metadata>
+  <metadata name="Channel4" xml:space="preserve">
+    <value>Channel 4</value>
+  </metadata>
+  <metadata name="Channel2" xml:space="preserve">
+    <value>Channel 2</value>
+  </metadata>
+  <metadata name="Channel3" xml:space="preserve">
+    <value>Channel 3</value>
+  </metadata>
+  <metadata name="Channel1" xml:space="preserve">
+    <value>Channel 1</value>
+  </metadata>
+  <metadata name="CompareSuccess" xml:space="preserve">
+    <value>Matching Information</value>
+  </metadata>
+  <metadata name="Description" xml:space="preserve">
+    <value>Description: Click the picture of the image list and select the photo to register</value>
+  </metadata>
+  <metadata name="USBSubscript" xml:space="preserve">
+    <value>USB Number</value>
+  </metadata>
+  <metadata name="SelectFolder" xml:space="preserve">
+    <value>Select the Folder</value>
+  </metadata>
+  <metadata name="SaveFiled" xml:space="preserve">
+    <value>Setup operation failed!</value>
+  </metadata>
+  <metadata name="SaveImage" xml:space="preserve">
+    <value>Save Capture</value>
+  </metadata>
+  <metadata name="DepthError" xml:space="preserve">
+    <value>Image format error, image depth is not 24 bits.</value>
+  </metadata>
+  <metadata name="SaveSuccess" xml:space="preserve">
+    <value>Set operation success!</value>
+  </metadata>
+  <metadata name="SystemMessage" xml:space="preserve">
+    <value>System Message</value>
+  </metadata>
+  <metadata name="ExitFullScreen" xml:space="preserve">
+    <value>Restore</value>
+  </metadata>
+  <metadata name="LoadConfiguration" xml:space="preserve">
+    <value>Initialize system configuration information</value>
+  </metadata>
+  <metadata name="DataManager" xml:space="preserve">
+    <value>(Data Manager)</value>
+  </metadata>
+  <metadata name="CameraIPNull" xml:space="preserve">
+    <value>Enter the IP address</value>
+  </metadata>
+  <metadata name="Date" xml:space="preserve">
+    <value>Date</value>
+  </metadata>
+  <metadata name="Male" xml:space="preserve">
+    <value>Male</value>
+  </metadata>
+  <metadata name="Next" xml:space="preserve">
+    <value>Next</value>
+  </metadata>
+  <metadata name="Home" xml:space="preserve">
+    <value>Home</value>
+  </metadata>
+  <metadata name="Save" xml:space="preserve">
+    <value>Save</value>
+  </metadata>
+  <metadata name="Port" xml:space="preserve">
+    <value>Port</value>
+  </metadata>
+  <metadata name="NumberNull" xml:space="preserve">
+    <value>Enter the personnel number!</value>
+  </metadata>
+</root>
